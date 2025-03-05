@@ -1,0 +1,1741 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+    background-color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.zct-sidebody {
+    width: 100%;
+    display: flex;
+
+    height: 250vh;
+}
+
+.zct-sidebar {
+    width: 17%;
+    background: white;
+    border-radius: 20px;
+    margin-left: 20px;
+
+    height: 575px;
+    position: sticky;
+    top: 1rem;
+}
+.zct-pages{
+    color: #989faf;
+    padding-top: 10px;
+}
+.zct-pages hr{
+    margin-top: 10px;
+
+}
+
+.zct-sidebar ul li{ cursor: pointer;
+
+    list-style: none;
+    padding-top: 10px;
+}
+
+.zct-sidebar ul ul {
+    /* padding-left: 20px; */
+    margin-bottom: 20px;
+}
+.zct-menu1 ul ul{
+    padding-left: 20px;
+
+}
+
+.zct-sidebar ul ul li a {
+    color: #c0c0c1;
+
+}
+
+.zct-sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+.zct-logo .hr1{
+    margin-top: 20px;
+
+}
+
+.zct-mainbody {
+    width: 83%;
+    height: 200px;
+}
+
+.zct-logomenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.zct-logo {
+   padding-top: 20px;
+
+}
+
+.zct-logo i{ cursor: pointer;
+    margin-right: 11px;
+    font-size: 22px;
+}
+
+.zct-logo span {
+    font-family: 'Arial Narrow';
+    font-size: 14px;
+    color: #3d4b68;
+
+}
+
+.zct-logo hr {
+    margin-top: 10px;
+
+}
+
+
+.zct-header {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+}
+
+.zct-defaultpage span {
+    color: white;
+
+}
+
+.zct-defaultpage ul {
+    display: flex;
+
+}
+
+.zct-defaultpage {
+    color: white;
+    display: flex;
+    width: 25%;
+    align-items: center;
+}
+
+.zct-icon {
+    width: 70%;
+
+}
+
+.zct-defaultpage ul li{
+     cursor: pointer;
+    list-style: none;
+
+}
+.zct-defaultpage i{
+    cursor: pointer;
+}
+
+.zct-icon i{ 
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.zct-menu ul a {
+
+
+    display: block;
+
+
+}
+
+.zct-menu ul li{ cursor: pointer;
+
+    /* position: relative; */
+}
+
+.zct-menu ul ul {
+    /* position: absolute; */
+    /* display: none; */
+
+}
+.zct-menu ul ul :hover{
+   
+    /* display: none; */
+    color: black;
+    font-weight: 600;
+
+}
+
+.zct-menu ul ul ul {
+    padding-left: 0%;
+}
+
+.zct-menu ul li:hover>ul {
+    /* display: block; */
+
+}
+
+.zct-searchsign {
+    display: flex;
+}
+
+.zct-signlogo {
+    color: white;
+}
+
+.zct-search input {
+    padding: 8px 0px 8px 25px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 4px;
+
+}
+.zct-search input::placeholder{
+    color: #c6cbcf;
+}
+
+.zct-sign ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.zct-sign ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.zct-sign {
+    display: flex;
+}
+
+.zct-bellicon {
+    display: flex;
+    color: white;
+    align-items: center;
+
+}
+
+.zct-bellicon i{ cursor: pointer;
+    padding: 5px;
+}
+
+.zct-sign i{
+     cursor: pointer;
+     padding-left: 12px;
+     padding-right: 7px;
+}
+
+.zct-search {
+    position: relative;
+}
+
+.zct-searchicon {
+    position: absolute;
+    padding: 8px;
+    font-size: 14px;
+    color: #6d788f;
+    cursor: pointer;
+}
+.zct-projectcomoletionicon{
+    cursor: pointer;
+}
+
+.zct-mainboxs {
+    width: 100%;
+}
+
+.zct-box1 {
+    width: 25%;
+    background: #ffffff;
+
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+
+.zct-box2 {
+    width: 25%;
+    background: #ffffff;
+
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.zct-box3 {
+    width: 25%;
+    background: #fafafa;
+
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+
+.zct-box4 {
+    width: 25%;
+    background: #fffeff;
+
+    border-radius: 10px;
+    display: flex;
+
+
+}
+
+.zct-boxs {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container {
+    padding: 0px 20px;
+}
+
+.zct-conticon {
+    width: 100%;
+    display: flex;
+}
+
+.zct-boxcont {
+    width: 70%;
+    padding: 10px;
+}
+
+.zct-boxcont h5 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    color: #7a7a7a;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+.zct-box4icon {
+    width: 30%;
+    display: flex;
+    justify-content: right;
+}
+
+.zct-circle1 {
+
+    width: 50px;
+    height: 50px;
+    background: #686ddc;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zct-circle1-1 {
+
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zct-circle1-2 {
+
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zct-circle1-3 {
+
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zct-circle1-1 i{ cursor: pointer;
+    color: #000;
+    font-size: 5px;
+
+}
+
+.zct-circle1-2 i{ cursor: pointer;
+
+    color: #000;
+}
+
+.zct-circle1-3 i{ cursor: pointer;
+    color: #000;
+
+}
+
+
+.zct-circle2 {
+
+    width: 50px;
+    height: 50px;
+    background: #e25158;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zct-circle3 {
+
+    width: 50px;
+    height: 50px;
+    background: #65cbaf;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zct-circle34 {
+
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(253, 251, 251, 0.2), 0 6px 20px 0 rgba(141, 131, 131, 0.19);
+    cursor: pointer;
+}
+
+.zct-circle4 {
+
+    width: 50px;
+    height: 50px;
+    background: #f8b49b;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zct-circle4 i{ cursor: pointer;
+    color: white;
+    font-size: 20px;
+
+}
+
+.zct-circle2 i{ cursor: pointer;
+    color: white;
+    font-size: 20px;
+
+}
+
+.zct-circle3 i{ cursor: pointer;
+    color: white;
+    font-size: 20px;
+
+}
+
+.zct-circle1 i{ cursor: pointer;
+    color: white;
+    font-size: 20px;
+
+}
+
+.zct-2ndboxs {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+
+
+}
+
+.zct-graphbox {
+    width: 55%;
+    margin-right: 20px;
+
+}
+
+.zct-graph {
+    width: 100%;
+    background: #fffdfd;
+
+    border-radius: 20px;
+
+}
+
+.zct-imgbox {
+    width: 45%;
+
+}
+
+.zct-img {
+    width: 100%;
+    border-radius: 20px;
+    background-image: url(img/i.webp);
+    height: 262px;
+
+
+}
+
+
+.zct-imgbox img {
+    border-radius: 20px;
+}
+
+.zct-3ndboxs {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.zct-col1 {
+    width: 33%;
+
+    /* margin-right: 20px; */
+    margin-right: 20px;
+
+}
+
+.zct-col2 {
+    width: 33%;
+
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.zct-col3 {
+    width: 33%;
+
+
+}
+
+.zct-col1-1 {
+    width: 88%;
+
+    background: white;
+
+    border-radius: 20px;
+    justify-content: center;
+    padding-bottom: 1px;
+    padding: 2px 20px;
+    padding-bottom: 11px;
+
+
+}
+
+.zct-col1-1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.zct-teammembers {
+    font-size: 18px;
+    margin-bottom: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    font-weight: 600;
+    color: #3a4865;
+}
+
+.zct-team {
+    width: 100%;
+    display: flex;
+
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.zct-members {
+    width: 80%;
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.zct-memberst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zct-memberst span {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.zct-memberst1 button {
+    background: hsl(150.64deg 55.29% 83.33%);
+    color: hsl(144.47deg 37.25% 60%);
+    padding: 2px 8px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.zct-memberst2 button {
+    background: hsl(14.4deg 71.43% 93.14%);
+    color: hsl(10.66deg 81.72% 63.53%);
+    padding: 2px 8px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.zct-memberst1 span {
+    font-weight: 600;
+    color: #3f4c69;
+}
+
+.zct-memberst2 span {
+    font-weight: 600;
+    color: #3f4c69;
+}
+
+.zct-memberst3 span {
+    font-weight: 600;
+    color: #3f4c69;
+}
+
+.zct-memberst4 span {
+    font-weight: 600;
+    color: #3f4c69;
+}
+
+.zct-memberst3 button {
+    background: hsl(14.4deg 71.43% 93.14%);
+    color: hsl(10.66deg 81.72% 63.53%);
+    padding: 2px 8px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.zct-memberst4 button {
+    background: hsl(150.64deg 55.29% 83.33%);
+    color: hsl(144.47deg 37.25% 60%);
+    padding: 2px 8px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.zct-addbtn button {
+    padding: 6px 12px;
+    background: #ffffff;
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 10px;
+    justify-content: right;
+    cursor: pointer;
+
+}
+
+.zct-addbtn {
+    width: 20%;
+
+    justify-content: right;
+}
+
+.zct-col2-1 {
+    width: 100%;
+
+    background: white;
+
+    border-radius: 20px;
+
+
+}
+
+.zct-setting {
+    position: absolute;
+    top: -15px;
+    right: 5px;
+
+}
+
+.zct-col3-1 {
+    width: 100%;
+
+    background: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+.zct-box1date {
+    margin: 5px 0px;
+    color: gray;
+}
+
+.zct-box1date span {
+    color: #66cb90;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 2px;
+}
+
+.zct-box1date p {
+    margin-top: 5px;
+}
+
+.zct-box2date {
+    margin: 5px 0px;
+    color: gray;
+}
+
+.zct-box2date span {
+    color: #68cc91;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 2px;
+}
+
+.zct-box2date p {
+    margin-top: 5px;
+}
+
+.zct-box3date {
+    margin: 5px 0px;
+    color: gray;
+}
+
+.zct-box3date span {
+    color: #e35469;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 2px;
+}
+
+.zct-box3date p {
+    margin-top: 5px;
+}
+
+.zct-box4date {
+    margin: 5px 0px;
+    color: gray;
+}
+
+.zct-box4date span {
+    color: #66cb90;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 2px;
+}
+
+.zct-box4date p {
+    margin-top: 5px;
+}
+
+.zct-teanmembers {
+    width: 100%;
+}
+
+.zct-memberbtn {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.zct-list {
+    padding: 0px 20px;
+    padding-bottom: 22px;
+
+}
+
+.zct-list1 {
+    padding: 0px 20px;
+    padding-bottom: 11px;
+
+}
+
+.zct-list hr {
+    margin: 10px 0px;
+    color: gray;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+.zct-mainlist {
+    padding: 20px 0px;
+
+}
+
+.zct-mainlist span {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #3a4865;
+
+
+
+}
+
+.zct-listdetail {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 11px;
+    margin-top: 10px;
+}
+
+.zct-detail p {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #46546f;
+}
+
+.zct-detail span {
+    color: #828b9f;
+}
+
+.zct-time span {
+    margin-bottom: 10px;
+
+}
+
+
+.zct-icon1 {
+    font-size: 25px;
+    margin-right: 20px;
+    color: blue;
+}
+
+.zct-icon2 {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.zct-icon3 {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.zct-icon4 {
+    font-size: 25px;
+    margin-right: 20px;
+    color: purple;
+}
+
+.zct-iconpara {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.zct-iconpara p {
+
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #44516d;
+
+
+}
+
+.zct-mainline {
+    width: 200px;
+    height: 4px;
+    background: #eaecef;
+    border-radius: 2px;
+
+}
+
+.zct-line1 {
+    width: 150px;
+    height: 4px;
+    background: #6271dd;
+    border-radius: 2px;
+
+}
+
+.zct-line2 {
+    width: 150px;
+    height: 4px;
+    background: #db3d21;
+    border-radius: 2px;
+
+}
+
+.zct-line3 {
+    width: 150px;
+    height: 4px;
+    background: #208825;
+    border-radius: 2px;
+
+}
+
+.zct-line4 {
+    width: 150px;
+    height: 4px;
+    background: #6271dd;
+    border-radius: 2px;
+
+}
+
+.zct-mainiconbox {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.zct-mainiconbox span {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a4865;
+}
+
+.zct-comtprobox {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.zct-comment {
+    width: 40%;
+
+    background: white;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 0px 20px;
+}
+
+.zct-project {
+    width: 58%;
+
+
+}
+
+.zct-projectbox {
+
+    padding: 0px 20px;
+    background: white;
+    border-radius: 20px;
+
+}
+
+.zct-projecttitle {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 20px 0px;
+    color: gray;
+    align-items: center;
+
+
+
+}
+
+.zct-projecttitle1 {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 20px 0px;
+    color: gray;
+    align-items: center;
+    font-weight: 600;
+    font-size: 13px;
+
+
+
+}
+
+
+.zct-projectstatus1 i{ cursor: pointer;
+    font-size: 10px;
+    margin-right: 10px;
+    color: blue;
+
+}
+
+.zct-projectstatus2 i{ cursor: pointer;
+    font-size: 10px;
+    margin-right: 10px;
+    color: #65cb8f;
+}
+
+.zct-projectstatus3 i{ cursor: pointer;
+    font-size: 10px;
+    margin-right: 10px;
+    color: #e2495f;
+}
+
+.zct-projectstatus4 i{ cursor: pointer;
+    font-size: 10px;
+    margin-right: 10px;
+    color: #e2495f;
+}
+
+.zct-projectstatus5 i{ cursor: pointer;
+    font-size: 10px;
+    margin-right: 10px;
+    color: #5ecaeb;
+}
+
+.zct-projectstatus6 i{ cursor: pointer;
+    font-size: 10px;
+    margin-right: 10px;
+    color: #65cb8f;
+}
+
+.zct-projectname {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.zct-projectname1 {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.zct-projectname i{ cursor: pointer;
+    font-size: 25px;
+    color: green;
+    margin-right: 10px;
+}
+
+.zct-projectbudget {
+    width: 20%;
+}
+
+.zct-projectstatus {
+    width: 20%;
+}
+
+.zct-projectcomoletion {
+    width: 35%;
+}
+
+.zct-flowimg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.zct-comtimg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.zct-comtimg {
+    display: flex;
+}
+
+.fa-brands fa-bootstrap {
+    color: blue;
+}
+
+.zct-comtname {
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+.zct-days {
+    color: #858585;
+}
+
+.zct-comment p {
+    color: #858585;
+}
+
+.zct-flowbtn button {
+    padding: 5px 15px;
+    background-color: #6271dd;
+    border-radius: 5px;
+    border: 1px solid #6271dd;
+    color: white;
+cursor: pointer;
+}
+
+.zct-commentpara {
+    padding: 20px 0px;
+}
+
+.zct-commentimg {
+    width: 100%;
+    background-image: url(img/i\ \(2\).webp);
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.zct-commenticon {
+    color: gray;
+}
+
+.zct-commenticon i{ cursor: pointer;
+    padding: 10px;
+}
+
+.zct-projectcomoletion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zct-projectline {
+    width: 120px;
+    height: 3px;
+    background-color: #eaecef;
+}
+
+.zct-projectlinep1 {
+    width: 80px;
+    height: 3px;
+    background-color: #5ecaeb;
+}
+
+.zct-projectlinep2 {
+    width: 120px;
+    height: 3px;
+    background-color: #65cb8f;
+}
+
+.zct-projectlinep3 {
+    width: 40px;
+    height: 3px;
+    background-color: #e2495f;
+}
+
+.zct-projectlinep4 {
+    /* width: 40px; */
+    height: 3px;
+    background-color: #eaecef;
+}
+
+.zct-projectlinep5 {
+    width: 100px;
+    height: 3px;
+    background-color: #5ecaeb;
+}
+
+.zct-projectlinep6 {
+    width: 100px;
+    height: 3px;
+    background-color: #65cb8f;
+}
+
+.zct-balanbit {
+    width: 100%;
+
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.zct-balancebox {
+    width: 50%;
+    background: #000;
+
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.zct-balancebox1 {
+
+    padding: 0px 20px;
+    color: gray;
+    font-size: 15px;
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.zct-balancebox1 button {
+    padding: 10px 0px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.zct-bitcoinbox {
+    width: 50%;
+    background: #e25753;
+    height: 220px;
+    padding: 20PX 20px;
+    border-radius: 20px;
+}
+.zct-bttn button {
+    padding: 10PX 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #bdecd5;
+    color: #62b582;
+    cursor: pointer;
+}
+
+.zct-bitlogo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.zct-bitlogobox1 {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px;
+
+
+}
+
+.zct-boxprice {
+    color: white;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.zct-boxprice span {
+    font-size: 40px;
+    color: white;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.zct-curtprice span {
+    color: green;
+    margin-right: 5px;
+
+}
+
+.zct-ordersale {
+    width: 100%;
+    display: flex;
+    margin-right: 10px;
+}
+
+.zct-order {
+    width: 50%;
+}
+
+.zct-sale {
+    width: 50%;
+}
+
+.zct-salestitlelogo {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    font-weight: 600;
+    color: #485470;
+
+
+}
+
+.zct-salesvalue p {
+    font-weight: 600;
+    color: #4d5974;
+}
+
+.zct-salesprice p {
+    font-weight: 600;
+    color: #4d5974;
+}
+
+.zct-salesbounce p {
+    font-weight: 600;
+    color: #4d5974;
+}
+
+.zct-orderline {
+    width: 90px;
+    height: 2px;
+    background-color: rgb(255, 251, 251);
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.zct-orderlinep {
+    width: 60px;
+    height: 2px;
+    background-color: green;
+
+}
+
+.zct-orderlinep2 {
+    width: 40px;
+    height: 2px;
+    background-color: red;
+}
+
+.zct-bitconticon {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.zct-bitpara {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.zct-bitpara span {
+    color: #f6cbc6;
+
+}
+
+.zct-bitpara p {
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.zct-bitconticon {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.zct-biticon i{ cursor: pointer;
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+.zct-projectbox {
+    margin-bottom: 20px;
+}
+
+.zct-salescountry {
+
+    background-color: white;
+
+    padding: 0px 20px;
+    border-radius: 20px;
+
+}
+
+.zct-auterimglogo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.zct-countryflagname {
+    display: flex;
+    width: 30%;
+    margin-bottom: 20px;
+
+}
+
+.zct-countryflag {
+    font-size: 30px;
+    margin-right: 15px;
+
+
+}
+
+.zct-salestitle {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+
+}
+
+.zct-salestitle span {
+    color: gray;
+}
+
+.zct-countryname i{ cursor: pointer;
+    margin-right: 20px;
+}
+
+.zct-countryname {
+    font-weight: 600;
+    color: #4d5974;
+}
+
+.zct-autercate {
+    width: 100%;
+    display: flex;
+}
+
+.zct-auter {
+    width: 70%;
+
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 15px 20px;
+
+
+}
+
+.zct-defaultpage ul li a {
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+text-decoration: none;
+}
+
+.zct-auter1 {
+    width: 100%;
+}
+
+.zct-autername {
+    width: 40%;
+}
+
+.zct-auterfunction {
+    width: 20%;
+}
+
+.zct-autertech {
+    width: 20%;
+}
+.zct-cate {
+    width: 30%;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    height: 300px;
+}
+
+.zct-cateicon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.zct-autertitels {
+    display: flex;
+
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.zct-autertech2 {
+    width: 20%;
+}
+
+.zct-autertech2 button {
+    background: #e5e8ec;
+    color: #6578a1;
+    padding: 2px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.zct-autername {
+    display: flex;
+    align-items: center;
+}
+
+.zct-autername1 span {
+    font-size: 15px;
+    color: #55617a;
+    font-weight: 600;
+}
+.zct-autername1 p {
+    font-size: 13px;
+    color: #a4adbf;
+
+}
+.zct-auterfunction span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #6f7991;
+}
+.zct-auterfunction p {
+    font-size: 13px;
+    color: #a4adbf;
+}
+.zct-autertech button {
+    background: hsl(150.64deg 55.29% 83.33%);
+    color: hsl(144.47deg 37.25% 60%);
+    padding: 2px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.zct-auteremply {
+    width: 20%;
+}
+.zct-auterdatetime {
+    color: #98a2b6;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+.zct-cateicontitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.zct-catetitle {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #404d6a;
+}
+.zct-catetitle1 span {
+
+    color: #404d6a;
+}
+.zct-catecircle {
+    width: 35px;
+    height: 35px;
+    background: #212328;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zct-catecircle i{ cursor: pointer;
+    font-size: 15px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.arrowdown {
+    transform: rotate(-60deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 10px;
+}
+.arrowdown {
+    border: solid rgb(139, 139, 139);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 4px;
+    float: right;
+}
+.arrow1 {
+    border: solid rgb(0, 0, 0);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.zct-catetitle1 p {
+    color: gray;
+}
+.zct-livecommentimg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.zct-livecommentimg1 img {
+    width: 20%;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.zct-commentimgtext {
+    display: flex;
+}
+.zct-commentimgtext {
+    padding: 20px 0px;
+}
+.zct-commentimgtext1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.zct-commenttext1 textarea {
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    width: 100%;
+}
+.zct-projectstatus1 {
+    width: 20%;
+}
+.zct-projectstatus2 {
+    width: 20%;
+}
+.zct-projectstatus3 {
+    width: 20%;
+}
+.zct-projectstatus4 {
+    width: 20%;
+}
+.zct-projectstatus5 {
+    width: 20%;
+}
+.zct-projectstatus6 {
+    width: 20%;
+}
+
+.zct-commenttextname {
+    margin-bottom: 10px;
+}
+
+.zct-commenticon1 {
+    color: gray;
+    padding-top: 10px;
+}
+.zct-commenttext1 {
+    width: 80%;
+}
+
+.zct-maindiv {
+    background-color: #6271dd;
+    height: 250px;
+}
+
+.zct-menu i{ cursor: pointer;
+    margin-right: 5px;
+    color: #6675de;
+}
+
+.arrowdown {
+ 
+}
+
+.hr1 {
+
+
+    border: none;
+    height: 1px;
+    background: #eeeff2;
+
+}
+
+.zct-autertitels1 {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 10px;
+
+}
+
+.zct-autertitels1 span {
+    color: #b2b9c9;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.zct-auterfunction1 {
+    width: 20%;
+}
+
+.zct-cheakboc input {
+    width: 18px;
+    height: 18px;
+
+
+}
+
+.zct-cheakboc {
+    display: flex;
+    align-items: center;
+}
+
+.zct-footer {
+    width: 98%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.zct-copyright {
+    color: #758095;
+    font-size: 13px;
+}
+
+.zct-copyright span {
+    color: #4d5974;
+    font-weight: 600;
+}
+
+.zct-footermenu ul {
+    display: flex;
+}
+
+.zct-footermenu ul li{ cursor: pointer;
+    list-style: none;
+}
+
+.zct-footermenu ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #758095;
+    font-size: 13px;
+}
+
+.zct-biticon {
+    display: flex;
+}
+
+.zct-biticoncont span {
+    color: #f6cbc6;
+
+}
+
+.zct-biticoncont p {
+    font-weight: 600;
+
+}
+.zct-pages ul{
+    padding-left: none
+    ;
+    margin-bottom: 20px;
+}
+.zct-pages ul li a{
+    color: #c0c0c1;
+}
